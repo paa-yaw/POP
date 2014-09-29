@@ -10,7 +10,7 @@
 
 body 
 {
-background:linear-gradient(70deg,silver,black);	
+background:linear-gradient(180deg,black,silver);	
 font-style: italic;
 color:blue;
 	
@@ -28,7 +28,6 @@ color:blue;
   	height:250px;
   	margin:100px;
   	display:inline-block;
-    padding:0px;
   }
   
   p 
@@ -36,7 +35,7 @@ color:blue;
   	color:blue;
   	font-family: sans-serif;
   	font-style: italic;
-  	padding:300px 0px 0px 0px;
+  	padding:220px 0px 0px 10px;
   	margin:none;
   	font-size: 20px;
   }
@@ -45,6 +44,8 @@ color:blue;
   	color:red;
   	font-family: sans-serif;
   	font-style: italic;
+     padding:0px 0px 0px 50px;
+
   	
   }
   
@@ -60,6 +61,10 @@ color:blue;
   {
   	background:linear-gradient(70deg,black,blue);
 
+  }
+
+  .row{
+    background:linear-gradient(180deg, silver,black);
   }
 
 /*.container 
